@@ -1,0 +1,104 @@
+# Reading C:/tools/common/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# ERROR: No extended dataflow license exists
+# do DDFS_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/tools/common/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Jason/EIT/Semester_02/02_ESPS/Lab/Simulation {C:/Jason/EIT/Semester_02/02_ESPS/Lab/Simulation/chirp.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:33:27 on Jul 24,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Jason/EIT/Semester_02/02_ESPS/Lab/Simulation" C:/Jason/EIT/Semester_02/02_ESPS/Lab/Simulation/chirp.sv 
+# -- Compiling module chirp
+# 
+# Top level modules:
+# 	chirp
+# End time: 11:33:27 on Jul 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Jason/EIT/Semester_02/02_ESPS/Lab/Simulation {C:/Jason/EIT/Semester_02/02_ESPS/Lab/Simulation/sine_wave_lut_8bit.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:33:27 on Jul 24,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Jason/EIT/Semester_02/02_ESPS/Lab/Simulation" C:/Jason/EIT/Semester_02/02_ESPS/Lab/Simulation/sine_wave_lut_8bit.sv 
+# -- Compiling module sine_wave_lut_8bit
+# 
+# Top level modules:
+# 	sine_wave_lut_8bit
+# End time: 11:33:28 on Jul 24,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Jason/EIT/Semester_02/02_ESPS/Lab/Simulation {C:/Jason/EIT/Semester_02/02_ESPS/Lab/Simulation/time_base_generation.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:33:28 on Jul 24,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Jason/EIT/Semester_02/02_ESPS/Lab/Simulation" C:/Jason/EIT/Semester_02/02_ESPS/Lab/Simulation/time_base_generation.sv 
+# -- Compiling module time_base_generation
+# 
+# Top level modules:
+# 	time_base_generation
+# End time: 11:33:28 on Jul 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Jason/EIT/Semester_02/02_ESPS/Lab/Simulation {C:/Jason/EIT/Semester_02/02_ESPS/Lab/Simulation/phase_accumulator_16bit.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:33:28 on Jul 24,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Jason/EIT/Semester_02/02_ESPS/Lab/Simulation" C:/Jason/EIT/Semester_02/02_ESPS/Lab/Simulation/phase_accumulator_16bit.sv 
+# -- Compiling module phase_accumulator_16bit
+# 
+# Top level modules:
+# 	phase_accumulator_16bit
+# End time: 11:33:28 on Jul 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Jason/EIT/Semester_02/02_ESPS/Lab/Simulation {C:/Jason/EIT/Semester_02/02_ESPS/Lab/Simulation/chirp_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:33:28 on Jul 24,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Jason/EIT/Semester_02/02_ESPS/Lab/Simulation" C:/Jason/EIT/Semester_02/02_ESPS/Lab/Simulation/chirp_tb.sv 
+# -- Compiling module chirp_tb
+# 
+# Top level modules:
+# 	chirp_tb
+# End time: 11:33:28 on Jul 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  chirp_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" chirp_tb 
+# Start time: 11:33:28 on Jul 24,2022
+# Loading sv_std.std
+# Loading work.chirp_tb
+# Loading work.chirp
+# Loading work.time_base_generation
+# Loading work.phase_accumulator_16bit
+# Loading work.sine_wave_lut_8bit
+# ** Warning: (vsim-3839) C:/Jason/EIT/Semester_02/02_ESPS/Lab/Simulation/chirp.sv(56): Variable '/chirp_tb/dut_0/lut_address', driven via a port connection, is multiply driven. See C:/Jason/EIT/Semester_02/02_ESPS/Lab/Simulation/chirp.sv(58).
+#    Time: 0 ps  Iteration: 0  Instance: /chirp_tb/dut_0 File: C:/Jason/EIT/Semester_02/02_ESPS/Lab/Simulation/chirp.sv
+# ** Warning: (vsim-3839) C:/Jason/EIT/Semester_02/02_ESPS/Lab/Simulation/chirp.sv(38): Variable '/chirp_tb/dut_0/chirp_enable', driven via a port connection, is multiply driven. See C:/Jason/EIT/Semester_02/02_ESPS/Lab/Simulation/chirp.sv(40).
+#    Time: 0 ps  Iteration: 0  Instance: /chirp_tb/dut_0 File: C:/Jason/EIT/Semester_02/02_ESPS/Lab/Simulation/chirp.sv
+# ** Warning: (vsim-3839) C:/Jason/EIT/Semester_02/02_ESPS/Lab/Simulation/chirp.sv(14): Variable '/chirp_tb/dut_0/enable', driven via a port connection, is multiply driven. See C:/Jason/EIT/Semester_02/02_ESPS/Lab/Simulation/chirp.sv(16).
+#    Time: 0 ps  Iteration: 0  Instance: /chirp_tb/dut_0 File: C:/Jason/EIT/Semester_02/02_ESPS/Lab/Simulation/chirp.sv
+# ** Warning: (vsim-3839) C:/Jason/EIT/Semester_02/02_ESPS/Lab/Simulation/chirp_tb.sv(12): Variable '/chirp_tb/tb_q', driven via a port connection, is multiply driven. See C:/Jason/EIT/Semester_02/02_ESPS/Lab/Simulation/chirp_tb.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /chirp_tb File: C:/Jason/EIT/Semester_02/02_ESPS/Lab/Simulation/chirp_tb.sv
+# ** Warning: (vsim-3839) C:/Jason/EIT/Semester_02/02_ESPS/Lab/Simulation/chirp_tb.sv(11): Variable '/chirp_tb/tb_lut_address', driven via a port connection, is multiply driven. See C:/Jason/EIT/Semester_02/02_ESPS/Lab/Simulation/chirp_tb.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /chirp_tb File: C:/Jason/EIT/Semester_02/02_ESPS/Lab/Simulation/chirp_tb.sv
+# ** Warning: (vsim-3839) C:/Jason/EIT/Semester_02/02_ESPS/Lab/Simulation/chirp_tb.sv(10): Variable '/chirp_tb/tb_q_ftw', driven via a port connection, is multiply driven. See C:/Jason/EIT/Semester_02/02_ESPS/Lab/Simulation/chirp_tb.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /chirp_tb File: C:/Jason/EIT/Semester_02/02_ESPS/Lab/Simulation/chirp_tb.sv
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: JASON  Hostname: JASON-S-LAPTOP  ProcessID: 9972
+#           Attempting to use alternate WLF file "./wlfttz1tns".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfttz1tns
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Simulation starts ... 
+# ** Note: $stop    : C:/Jason/EIT/Semester_02/02_ESPS/Lab/Simulation/chirp_tb.sv(29)
+#    Time: 600000100 ns  Iteration: 0  Instance: /chirp_tb
+# Break in NamedBeginStat testbench_scheduler at C:/Jason/EIT/Semester_02/02_ESPS/Lab/Simulation/chirp_tb.sv line 29
+# End time: 11:37:48 on Jul 24,2022, Elapsed time: 0:04:20
+# Errors: 0, Warnings: 8

@@ -1,0 +1,145 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "q_ftw[0]",
+					"strict" : false
+				},
+				{
+					"name" : "q_ftw[1]",
+					"strict" : false
+				},
+				{
+					"name" : "q_ftw[2]",
+					"strict" : false
+				},
+				{
+					"name" : "q_ftw[3]",
+					"strict" : false
+				},
+				{
+					"name" : "q_ftw[4]",
+					"strict" : false
+				},
+				{
+					"name" : "q_ftw[5]",
+					"strict" : false
+				},
+				{
+					"name" : "q_ftw[6]",
+					"strict" : false
+				},
+				{
+					"name" : "q_ftw[7]",
+					"strict" : false
+				},
+				{
+					"name" : "q_ftw[8]",
+					"strict" : false
+				},
+				{
+					"name" : "q_ftw[9]",
+					"strict" : false
+				},
+				{
+					"name" : "q_ftw[10]",
+					"strict" : false
+				},
+				{
+					"name" : "q_ftw[11]",
+					"strict" : false
+				},
+				{
+					"name" : "q_ftw[12]",
+					"strict" : false
+				},
+				{
+					"name" : "q_ftw[13]",
+					"strict" : false
+				},
+				{
+					"name" : "q_ftw[14]",
+					"strict" : false
+				},
+				{
+					"name" : "q_ftw[15]",
+					"strict" : false
+				},
+				{
+					"name" : "q_lut_address[0]",
+					"strict" : false
+				},
+				{
+					"name" : "q_lut_address[1]",
+					"strict" : false
+				},
+				{
+					"name" : "q_lut_address[2]",
+					"strict" : false
+				},
+				{
+					"name" : "q_lut_address[3]",
+					"strict" : false
+				},
+				{
+					"name" : "q_lut_address[4]",
+					"strict" : false
+				},
+				{
+					"name" : "q_lut_address[5]",
+					"strict" : false
+				},
+				{
+					"name" : "q_lut_address[6]",
+					"strict" : false
+				},
+				{
+					"name" : "q_lut_address[7]",
+					"strict" : false
+				},
+				{
+					"name" : "q[0]",
+					"strict" : false
+				},
+				{
+					"name" : "q[1]",
+					"strict" : false
+				},
+				{
+					"name" : "q[2]",
+					"strict" : false
+				},
+				{
+					"name" : "q[3]",
+					"strict" : false
+				},
+				{
+					"name" : "q[4]",
+					"strict" : false
+				},
+				{
+					"name" : "q[5]",
+					"strict" : false
+				},
+				{
+					"name" : "q[6]",
+					"strict" : false
+				},
+				{
+					"name" : "q[7]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "reset_n",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
